@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(218, 239, 116);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color-scheme: dark;
+    text-transform: capitalize;
+    font-style:oblique;
+    color: crimson;
+}
+p{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+img{
+    border-style: outset;
+    border-color: firebrick;
+    border:  solid #000000;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    text-decoration:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: rgb(237, 163, 59);
+    margin-top: 5%;
+    margin-left: 15%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+#hi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 50px;
+}
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 0px;
+}
+.sa{
+    margin-left: -100px;
+    margin-top: 50px;
+}
+#s{
+    margin-top: -30px;
+}
+#ou{
+    margin-right: -100px;
+   margin-top:50px;
+}
